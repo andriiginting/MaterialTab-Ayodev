@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andriginting.materialtab.Fragment.Tab2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/tab_2"
+        android:gravity="center_horizontal|center_vertical"/>
+    <Button
+        android:id="@+id/tmbl_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Klik Saya"
+        />
+
+</FrameLayout>
